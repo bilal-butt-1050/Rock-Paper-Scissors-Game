@@ -47,9 +47,7 @@ const show_winner = (user_win, user_choice, computer_choice)=>{
 
 const play_game = (user_choice) => {
     const computer_choice = comp_choice();
-    console.log("you choose ",user_choice);
-    console.log("Computer choose ",computer_choice);
-
+ 
     if(user_choice == computer_choice){
         draw_game();
     }
